@@ -1,0 +1,26 @@
+#menuArea {
+    background: #f1f1f1;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+#contentArea {
+    background: white;
+    padding: 0px;
+    border: 1px solid black;
+}
+
+a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+table#albums 
+{
+    border-collapse:separate;
+    border-spacing:0 5px;
+}
